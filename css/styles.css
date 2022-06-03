@@ -222,7 +222,16 @@ p {
   height: 120px;
   color: #ffffff;
   text-align: center;
-  background-color: #2f303a;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/main.jpg);
+  background-color: var(--hero-background-color);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .main-section-h1 {
@@ -384,4 +393,18 @@ p {
   padding-left: 15px;
   padding-top: 15px;
   padding-bottom: 15px;
+}
+.contact-icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+.middle-icon {
+  display: flex;
+  width: 270px;
+  height: 120px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+  background-color: #F5F4FA;
 }
