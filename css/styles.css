@@ -15,6 +15,7 @@ ul {
   margin-left: auto;
   margin-right: auto;
 }
+
 .header {
   border-bottom: 1px solid #ececec;
   height: 80px;
@@ -70,6 +71,7 @@ body {
   letter-spacing: 0.03em;
   color: #000000;
 }
+
 .logo-white {
   font-family: "Raleway";
   font-weight: 700;
@@ -90,6 +92,7 @@ body {
   letter-spacing: 0.02em;
   color: #212121;
 }
+
 .portfolio-button {
   display: block;
   padding-top: 32px;
@@ -136,6 +139,7 @@ body {
   color: #212121;
   cursor: pointer;
 }
+
 .button:hover,
 .button:focus {
   background-color: #2196f3;
@@ -171,6 +175,7 @@ body {
   text-decoration-line: none;
   color: rgba(255, 255, 255, 0.6);
 }
+
 .footer {
   display: flex;
   background-color: #2f303a;
@@ -182,9 +187,11 @@ body {
 .footer-con {
   margin-top: 20px;
 }
+
 .footer-flex {
   display: flex;
 }
+
 .address-footer {
   font-style: normal;
   font-weight: 400;
@@ -230,11 +237,9 @@ p {
   background-position: center;
   color: #ffffff;
   text-align: center;
-  background-image: linear-gradient(
-      to right,
+  background-image: linear-gradient(to right,
       rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
+      rgba(47, 48, 58, 0.4)),
     url(../images/main.jpg);
   background-color: var(--hero-background-color);
   background-repeat: no-repeat;
@@ -299,6 +304,7 @@ p {
   display: flex;
   justify-content: space-between;
 }
+
 .team-item {
   box-sizing: border-box;
   background-color: #ffffff;
@@ -306,6 +312,7 @@ p {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+
 .team-whole {
   padding: 30px 0px;
 }
@@ -344,6 +351,7 @@ p {
   color: #ffffff;
   cursor: pointer;
 }
+
 .button-main:hover,
 .button-main:focus {
   background-color: #2196f3;
@@ -370,18 +378,21 @@ p {
   padding-top: 10px;
   padding-bottom: 30px;
 }
+
 .portfolio-button-list {
   display: flex;
   justify-content: center;
   margin-top: 30px;
   margin-left: 862;
 }
+
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   padding-bottom: 90px;
 }
+
 .portfolio-item {
   box-sizing: border-box;
   border: 1px solid;
@@ -389,29 +400,35 @@ p {
   background-color: #ffffff;
   margin-bottom: 30px;
 }
+
 .portfolio-item:hover,
 .portfolio-item:focus {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   cursor: pointer;
 }
+
 .portfolio-trans {
   border: 1px solid #eeeeee;
   border-top: transparent;
   padding: 20px 24px;
 }
+
 .portfolio-button-space:not(:last-child) {
   margin-right: 10px;
 }
+
 .portfolio-border {
   padding-left: 15px;
   padding-top: 15px;
   padding-bottom: 15px;
 }
+
 .contact-icon {
   margin-right: 10px;
   fill: currentColor;
 }
+
 .middle-icon {
   display: flex;
   width: 270px;
@@ -498,9 +515,11 @@ p {
 .client-icon {
   fill: currentColor;
 }
+
 .footer-con {
   display: flex;
 }
+
 .footer-list {
   display: flex;
   padding: 0;
@@ -509,9 +528,11 @@ p {
   justify-content: space-between;
   align-items: center;
 }
+
 .footer-social-flex {
   margin-left: 20px;
 }
+
 .footer-p-text {
   font-family: "Roboto";
   font-style: normal;
